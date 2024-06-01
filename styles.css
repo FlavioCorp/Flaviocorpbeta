@@ -59,11 +59,11 @@ header{
     top: 50px;
     right: 0;
 
-    background-color: #fff;
-    width: 400px;
-    z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
+    background-image: url('Machu_Picchu.jpg'); 
+        background-size: cover;
+        background-position: center;
+        filter: blur(10px); 
+        z-index: -1;;
     
 }
 
