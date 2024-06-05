@@ -41,13 +41,18 @@ header{
 
 .count-products{
     position: absolute;
-        width: 100%;
-        height: 100%;
-        background-image: url('Machu_Picchu.jpg'); 
-        background-size: cover;
-        background-position: center;
-        filter: blur(10px); 
-        z-index: -1;;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 #contador-productos{
@@ -59,11 +64,11 @@ header{
     top: 50px;
     right: 0;
 
-    background-image: url('Machu_Picchu.jpg'); 
-        background-size: cover;
-        background-position: center;
-        filter: blur(10px); 
-        z-index: -1;;
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
     
 }
 
@@ -179,9 +184,19 @@ header{
 
 .info-product button{
     border: none;
-    background: none;
+    background: #fff;
     background-color: #000;
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
 }
